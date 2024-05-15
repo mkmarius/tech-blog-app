@@ -18,11 +18,14 @@ export const FormContainer = styled.div`
     border: 3px solid #3f9dce;
     width: 80%;
     border-radius: 20px;
+
     h1 {
         margin-bottom: 1rem;
     }
+
     @media only screen and (max-width: 542px) {
         width: 90%;
+
         h1 {
             font-size: 1.2rem;
         }
@@ -33,6 +36,7 @@ export const FormStyled = styled.form`
     display: flex;
     flex-direction: column;
     width: 100%;
+
     label {
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -48,6 +52,7 @@ export const TitleInput = styled.div`
     label {
         width: 100%;
     }
+
     input {
         width: 100%;
         min-height: 2.5rem;
@@ -61,6 +66,7 @@ export const TitleInput = styled.div`
 export const BodyInput = styled.div`
     display: flex;
     flex-direction: column;
+
     textarea {
         width: 100%;
         font-weight: 400;
@@ -81,12 +87,14 @@ export const SubmitButton = styled.input`
     border: 3px solid #3f9dce;
     color: #3f9dce;
     margin-bottom: 1rem;
+
     :hover {
         cursor: pointer;
         text-decoration: none;
         background: #3f9dce;
         color: #031239;
     }
+    
     @media only screen and (max-width: 542px) {
         font-size: 1.1rem !important;
     }

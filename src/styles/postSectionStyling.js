@@ -23,12 +23,15 @@ export const PostSection = styled.div`
         margin: auto;
         padding: 1rem;
     }
+
     @media only screen and (max-width: 1100px) {
         grid-template-columns: repeat(2, 1fr);
     }
+
     @media only screen and (max-width: 794px) {
         grid-template-columns: 1fr;
     }
+
     @media only screen and (max-width: 495px) {
         width: 95%;
     }
@@ -39,10 +42,12 @@ export const CreateButtonDiv = styled.div`
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+
     @media only screen and (max-width: 1170px) {
         width: 100%;
         justify-content: center;
     }
+
     .create-btn {
         padding: 1rem 2rem;
         font-weight: 700;
@@ -51,12 +56,14 @@ export const CreateButtonDiv = styled.div`
         font-size: 1.2rem;
         background: none;
         border: 3px solid #3f9dce;
+
         :hover {
             cursor: pointer;
             text-decoration: none;
             background: #3f9dce;
             color: #031239;
         }
+        
         @media only screen and (max-width: 1700px) {
             margin-top: 1rem;
         }

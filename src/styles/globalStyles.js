@@ -1,50 +1,51 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #000c24;
+    background-color: #3F4866;
 }
 
-h1,h2,p{
+h1, h2, p {
     color: white;
 }
 
-h1{
+h1 {
     font-weight: 500;
 }
 
-h2{
-font-weight: 500;
-font-size: 1.5rem;
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
-p{
+p {
     font-size: 1.2rem;
     font-weight: 100;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 1.2rem;
     color: #3f9dce;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-label, input{
+label, input {
     font-size: 1.2rem;
 }
 
-textarea{
+textarea {
     font-size: 1rem;
 }
 `;
+
 export default GlobalStyle;

@@ -22,7 +22,7 @@ const PostsSection = () => {
                 setPosts(res.data);
             })
             .catch((err) => {
-                console.log(err);
+                throw new Error(err);
             });
     }, []);
     return (
@@ -37,7 +37,7 @@ const PostsSection = () => {
                 </Link>
             </CreateButtonDiv>
             <PostSection>
-                {posts && posts.length === 0 ? (
+                {!posts && posts.length === 0 ? (
                     <h1>No posts found</h1>
                 ) : (
                     posts.map((post) => {

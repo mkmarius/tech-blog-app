@@ -11,9 +11,11 @@ export const PostStyled = styled.div`
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+
     h2 {
         flex-wrap: wrap;
         margin-bottom: 0.5rem;
+
         @media only screen and (max-width: 495px) {
             font-size: 1.3rem;
         }
@@ -30,6 +32,4 @@ export const LinkContainer = styled.div`
     justify-content: flex-end;
     height: 70px;
     margin: 0;
-    @media only screen and (max-width: 1540px) {
-    }
 `;

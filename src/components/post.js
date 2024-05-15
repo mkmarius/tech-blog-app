@@ -6,6 +6,7 @@ import { PostDetails } from "../styles/postStyling";
 import GlobalStyle from "../styles/globalStyles";
 import { PostStyled } from "../styles/postStyling";
 import { LinkContainer } from "../styles/postStyling";
+
 const Post = ({ postID, title, userId }) => {
   return (
     <>
